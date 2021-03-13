@@ -17,7 +17,7 @@ def save():
 
 def clear():
     website_text.set("")
-    email_text.set("")
+    #email_text.set("")
     password_text.set("")
 
 def center_window(w=300, h=200):
