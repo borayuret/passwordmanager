@@ -27,7 +27,7 @@ def save():
             with open('data.txt', 'a') as data_file:
                 data_file.write(f"{website} | {email} | {password}\n")
 
-            messagebox.showinfo(title=website, message="Your info is saved successfully!")
+            #messagebox.showinfo(title=website, message="Your info is saved successfully!")
 
             clear()
         else:
